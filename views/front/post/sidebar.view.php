@@ -1,0 +1,1 @@
+<div class="blog_set"><?= e(Date::forge(strtotime($item->post_created_at))->format('%Y/%m/%d')); ?><br /><a href="<?= '/' . $slug . '/' . $item->post_virtual_name . '.html' ?>"><?= e($item->post_title) ?></a><p><?= nl2br(e($item->post_summary)) ?></p></div>

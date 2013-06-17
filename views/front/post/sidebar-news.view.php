@@ -1,0 +1,1 @@
+<div class="news_set"><?= e(Date::forge(strtotime($item->post_created_at))->format('%Y/%m/%d')); ?><br /><?= e($item->post_title) ?></div>
